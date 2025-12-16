@@ -1,0 +1,17 @@
+{
+    "_hash": "8039a21ae56c2209799875e997ff320f09f8d47776ddc5904e5857de9fe60dc4",
+    "patches": {
+        "drupal/core": [
+            {
+                "package": "drupal/core",
+                "description": "TypeError: Drupal\\Component\\Utility\\Html::escape(): Argument #1 ($text) must be of type string, null given",
+                "url": "https://www.drupal.org/files/issues/2025-07-11/fix-type-error-null-text-3523317-21.patch",
+                "sha256": "34fbf62232650226c3416f7e79bebfed6f732d6c48fc902d69299652278766e9",
+                "depth": 2,
+                "extra": {
+                    "provenance": "root"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,59 @@
+# Ignore binaries.
+/bin
+
+# Ignore non-custom parts of Drupal.
+/web/core
+/web/libraries
+/web/modules/contrib
+/web/profiles/contrib
+/web/themes/contrib
+/web/sites/default/files
+
+# Ignore Composer-managed dependencies.
+vendor/
+composer.phar
+
+# Ignore the console directory
+console
+
+# PHP Storm
+.idea
+
+# Behat screenshots
+tests/screenshots
+
+# Ignore paths that may contain user-generated content
+/web/sites/*/files
+/web/sites/*/public
+/web/sites/*/private
+/web/sites/*/files-public
+/web/sites/*/files-private
+/storage
+
+#Ignore files in local docker env
+web/sites/docker.local/local.alphera/files
+
+# Ignore paths that may contain temporary files
+/sites/*/translations
+/sites/*/tmp
+/sites/*/cache
+
+# Ignore the certs folder
+certs/*.key
+
+# Ignore all sass cache
+.sass-cache
+
+#Ignore IDE generated folders
+/nbproject
+
+# Drupal configs to ignore
+config/ignore/*
+!config/ignore/.htaccess
+web/sites/docker.local/localhost
+/.editorconfig
+/.gitattributes
+
+.DS_Store
+web/.DS_Store
+web/themes/.DS_Store
