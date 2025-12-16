@@ -11,7 +11,7 @@
 
 This project consists of a basic Drupal website and database. The website forms part of the recruitment process for web developers at Proctor + Stevenson.
 
-This project includes a docker-compose configuration file to help get it up and running quickly. You can of course use your local WAMP or MAMP installation instead if you wish.
+This project includes .ddev configuration to help get it up and running quickly. You can of course use your local WAMP or MAMP installation instead if you wish.
 
 <a name="prerequisites"></a>
 # Prerequisites
