@@ -1,0 +1,6 @@
+name: 'Proctors Test Module'
+type: module
+description: 'Module to for Proctors Test Site'
+package: Custom
+core: 11.x
+core_version_requirement: ^11

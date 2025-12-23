@@ -1,0 +1,24 @@
+<?php
+
+use Drupal\Core\Entity\EntityTypeInterface;
+use Drupal\Core\Field\BaseFieldDefinition;
+use Drupal\proctors_test_module\Plugin\Field\ReadTimeField;
+
+function proctors_test_module_entity_bundle_field_info(EntityTypeInterface $entity_type, $bundle)
+{
+    $fields = [];
+
+    if ($entity_type->id() == 'node' && $bundle == 'article') {
+        $fields['field_read_time'] = BaseFieldDefinition::create('string')
+            ->setLabel(t('Read time'))
+            ->setName('Read time')
+            ->setDescription(t('Estimated read time computed from the body field.'))
+            ->setComputed(true)
+            ->setClass(ReadTimeField::class)
+            ->setCustomStorage(true)
+            ->setTranslatable(true)
+            ->setTargetEntityTypeId($entity_type->id());
+    }
+
+    return $fields;
+}
