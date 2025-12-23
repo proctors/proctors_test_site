@@ -65,7 +65,7 @@ ddev drush status
 <a name="submitting"></a>
 # Submitting the Test
 
-We will need all the source code back to review your application. You can submit the via email attached as a zip file or download link and send to [recruitment@proctors.co.uk](mailto:recruitment@proctors.co.uk).
+We will need all the source code back to review your application. You can submit the test via email attached as a zip file or download link and send to [recruitment@proctors.co.uk](mailto:recruitment@proctors.co.uk).
 import the sql to see your code working.
 
 **Please also submit your CV, ensuring you list your name and the role you are applying for in the subject line.**
