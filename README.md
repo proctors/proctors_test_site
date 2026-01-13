@@ -11,7 +11,7 @@
 
 This project consists of a basic Drupal website and database. The website forms part of the recruitment process for web developers at Proctor + Stevenson.
 
-This project includes .ddev configuration to help get it up and running quickly. 
+This project includes .ddev configuration to help get it up and running quickly.
 
 <a name="prerequisites"></a>
 # Prerequisites
@@ -26,6 +26,14 @@ We suggest SequelAce is used to via/import data:
 
 
 <a name="getting-started"></a>
+# Cloning Repository
+
+Ensure this repo is cloned using the following git command: 
+
+`git clone https://github.com/proctors/proctors_test_site.git proctors-test-site`
+
+This will ensure the files are added to the correct directory, and avoid any errors on `ddev start`.
+
 # Getting Started
 
 Once you've installed the necessary prerequisites, you should be able to navigate to the root directory and run:
